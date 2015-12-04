@@ -24,7 +24,12 @@ Default call to JSON-backed logger `logger.info("text")` would record in the fol
 
 Call with a dictionary
 ```swift
-logger.warn(["numeric": 1, "string": "arbitrary string", "object": customStringConvertibleObject], "dict": {"dict value": "something"})
+logger.warn([
+  "numeric": 1,
+  "string": "arbitrary string",
+  "object": customStringConvertibleObject,
+  "dict": ["dict value": "something"]
+])
 ```
 
 produces:
