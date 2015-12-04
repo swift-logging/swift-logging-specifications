@@ -35,16 +35,17 @@ logger.warn([
 produces:
 
 ```json
-  {"timestamp": "2015-12-04T10:25:48+00:00", "level": "warn", "numeric": 1, "string": "arbitrary string", "object": "object's string representation", "dict": {"dict value": "something"}}
+{
+  "timestamp": "2015-12-04T10:25:48+00:00",
+  "level": "warn",
+  "numeric": 1,
+  "string": "arbitrary string",
+  "object": "object's string representation",
+  "dict": {"dict value": "something"}
+}
 ```
 
-Plain text formatter can be build over the structured formatter by simple flattening:
-
-```swift
-logger.warn(["numeric": 1, "string": "arbitrary string", "object": customStringConvertibleObject], "dict": {"dict value": "something"})
-```
-
-produces (note that keys are sorted):
+Plain text formatter can be build over the structured formatter by simple flattening and sorting keys:
 
 ```
 2015-12-04T10:25:48+00:00 WARN string="arbitrary string" "dict"="{\"dict value\": \"something\"}" "numeric"=1 "object"="object's string representation"
