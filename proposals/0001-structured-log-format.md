@@ -1,6 +1,6 @@
 # Format log messages in a structured way
 
-* Proposal: [SWIFTLOGGING-0001](https://github.com/akolov/swift-logging/blob/master/proposals/0001-structured-log-format.md)
+* Proposal: [SWIFTLOG-0001](https://github.com/akolov/swift-logging/blob/master/proposals/0001-structured-log-format.md)
 * Author(s): [Alexander Kolov](https://github.com/akolov), [Alexander Saltanov](https://github.com/sashka)
 * Status: **Draft**
 
