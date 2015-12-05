@@ -2,7 +2,7 @@
 
 * Proposal: [SWIFTLOGGING-0001](https://github.com/akolov/swift-logging/blob/master/proposals/0001-structured-log-format.md)
 * Author(s): [Alexander Kolov](https://github.com/akolov), [Alexander Saltanov](https://github.com/sashka)
-* Status: **Awaiting Review**
+* Status: **Draft**
 
 ## Introduction
 
