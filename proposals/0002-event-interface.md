@@ -1,6 +1,6 @@
 # Log event interface, mandatory and optional fields
 
-* Proposal: [SWIFTLOG-0002](https://github.com/akolov/swift-logging/blob/master/proposals/0002-log-event-interface.md)
+* Proposal: [SWIFTLOG-0002](https://github.com/akolov/swift-logging/blob/master/proposals/0002-event-interface.md)
 * Author(s): [Alexander Kolov](https://github.com/akolov)
 * Status: **Draft**
 
