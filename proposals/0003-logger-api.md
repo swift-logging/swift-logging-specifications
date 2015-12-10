@@ -56,3 +56,4 @@ Core library should include only the abstract base handler, upon which specific 
 
 Formatter instances are used to convert an [Event](https://github.com/akolov/swift-logging/blob/master/proposals/0002-event-interface.md) to text.
 _Do we need template engine for formatters?_
+Core library should include only the abstract base Formatter, upon which specific implementations can be built.
