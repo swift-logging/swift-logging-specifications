@@ -15,7 +15,7 @@ We need to think about future use cases, since changing it in future will break 
 
 ## Proposed design
 
-I propose that we use the following interface for the log events:
+I propose that we use the following interface for the log events _(why?)_:
 
 ```swift
 struct Event {
