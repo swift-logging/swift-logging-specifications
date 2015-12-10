@@ -19,15 +19,11 @@ I propose that we use the following interface for the log events _(why?)_:
 
 ```swift
 struct Event {
-  let timestamp: NSDate
+  let timestamp: NSDate # or NSTimeInterval? what kind of precision do we need?
   let channel: String
   let level: Level
-  let sourceFilename: String
-  let sourceModule: String
-  let sourceFunction: String
-  let sourceLine: Int
-  let threadID: Int?
-  let processID: Int?
+  let source: (file: String, function: String, line: Int, column: Int) # Shall we make this a struct or flatten into Event?
+  let process: (processID: Int, threadID: Int) # Shall we make this a struct or flatten into Event?
   let message: String?
   let metadata: [String: AnyObject]?
 }
