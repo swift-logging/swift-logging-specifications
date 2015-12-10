@@ -25,8 +25,8 @@ Base method to send message to logger:
 
 ```swift
 func log(level level: Level,
-         dictionary: Dictionary<String: AnyObject>?,
          message: String?,
+         dictionary: Dictionary<String: AnyObject>? = nil,
          file: String = __FILE__,
          function: String = __FUNCTION__,
          line: Int = __LINE__,
