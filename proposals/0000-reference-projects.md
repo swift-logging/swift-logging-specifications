@@ -8,3 +8,4 @@ We could use following projects as a reference:
  * [CleanroomLogging](https://github.com/emaloney/CleanroomLogger)
  * [CleanroomASL](https://github.com/emaloney/CleanroomASL)
  * [CocoaLumberjack](https://github.com/CocoaLumberjack/CocoaLumberjack)
+ * [SwiftyBeaver](https://github.com/skreutzberger/SwiftyBeaver)
