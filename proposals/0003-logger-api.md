@@ -24,7 +24,13 @@ _Can channels be nested?_
 Base method to send message to logger:
 
 ```swift
-func log(level level: Level, message: String, dictionary: Dictionary<String: AnyObject>?, file: String = __FILE__, function: String = __FUNCTION__, line: Int = __LINE__, column: Int = __COLUMN__) -> Void
+func log(level level: Level,
+         message: String,
+         dictionary: Dictionary<String: AnyObject>?,
+         file: String = __FILE__,
+         function: String = __FUNCTION__,
+         line: Int = __LINE__,
+         column: Int = __COLUMN__) -> Void
 ```
 
 ### Log levels
