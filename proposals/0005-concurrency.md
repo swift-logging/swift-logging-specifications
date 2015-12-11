@@ -15,3 +15,6 @@ Logger implementation should be fast and have as little locking as possible _(ev
 
 Handlers should assume that they will get accessed from multiple threads and employ synchronization mechanisms. For that we might need to have some implementation already in the base Handler.
 Additionally, concrete handler implementations should assume that their destinations might be accessed from different threads and processes, e.g. one log file can be written by multiple processes.
+
+
+I'm not sure if we can or should use dispatch in the `logging.core`, since it is a [separate project](https://github.com/apple/swift-corelibs-libdispatch)
