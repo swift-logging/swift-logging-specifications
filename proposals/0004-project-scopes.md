@@ -16,14 +16,16 @@ _Some basic concrete handlers and formatter could also be part of the core?_
 
 ## Proposed projects
 
- * logging-core
- * logging-stream-handler
- * logging-file-handler
- * logging-syslog-handler
- * logging-asl-handler
- * logging-network-handler (includes both client and server)
- * logging-mysql-handler
- * logging-postgresql-handler
- * logging-string-formatter
- * logging-json-formatter
- * logging-protobuf-formatter
+ * logging.core
+ * logging.handler.stream
+ * logging.handler.file
+ * logging.handler.syslog
+ * logging.handler.asl
+ * logging.handler.network.client
+ * logging.handler.network.server
+ * logging.handler.mysql
+ * logging.handler.postgresql
+ * logging.formatter.string.plain
+ * logging.formatter.string.beautified
+ * logging.formatter.json
+ * logging.formatter.protobuf
