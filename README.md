@@ -83,9 +83,51 @@ We're just getting started, and we welcome your help!
 
 #### Contributing
 
-If you wish to be part of the discussion driving the direction of this project, please [join our mailing list](http://swiftlogging.org/mailman/listinfo/swift-logging-dev_swiftlogging.org).
+If you'd like to participate in the Swift Standard Logging Community, we'd love to have you!
 
-If you wish to contribute via changes to this repo, please submit a pull request.
+We use **[GitHub Issues](https://guides.github.com/features/issues/)** for all project planning and communication.
+
+Contributing can take many forms:
+
+- Making Suggestions and Pointing Out Problems
+	- Reporting bugs
+	- Sending feature requests
+	- Pointing out typos
+	- Commenting on existing issue tickets
+
+- Improving the Documentation and Codebase
+	- Fixing bugs
+	- Tweaking project file settings
+	- Writing unit tests
+	- Submitting performance and other code improvements
+	- Adding new features
+
+Regardless of how you'd like to contribute, the first place to go is our project's Issues tab.
+
+Please familiarize yourself with the existing issues before creating a new one, as we'd like to avoid duplicate work and administrative clutter. We won't hesitate to close duplicate or invalid issues; do not be offended.
+
+If your intended contribution to the project isn't covered by an existing issue, please create a new issue and apply one of the following issue labels:
+
+- **question** — If you have a question for the community or need help with something, use this label 
+- **bug** — Use this label if existing functionality is not working as expected
+- **improvement** — This applies to anything else: feature requests, typo fixes, documentation improvements, new feature implementations, etc.
+
+**Note:** The team may add more labels to your issues after they've been created, but for new issues, please limit yourself to using only the labels listed above.
+
+##### Pull Requests 
+
+If your issue requires changes to the repository in order to be resolved—in other words, if you're contributing a change in code, documentation or project configuration—then creating the issue is just the first step.
+
+In such cases, valid issues can only be closed once a proposed repository change has been merged in or rejected.
+
+We use GitHub's [Pull Request](https://help.github.com/articles/using-pull-requests/) feature to handle the workflow for this: 
+
+1. [Fork the repo](https://help.github.com/articles/fork-a-repo/) to which you'd like to submit a contribution
+2. Commit changes to your fork
+3. Push your changes to GitHub
+4. Submit a pull request from your changes
+
+**Important:** Unless you are a project collaborator, **we require that each pull request be associated with an open GitHub Issue**. Please note the issue number in your pull request to help us keep track of what your changes are intended to address.
 
 #### Acknowledgements
 
