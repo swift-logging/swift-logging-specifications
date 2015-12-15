@@ -44,6 +44,7 @@ Following log levels are proposed:
 * warning
 * info
 * debug
+* trace
 
 _Do we need emergency and alert, can we merge them into critical?_
 
